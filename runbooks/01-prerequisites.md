@@ -19,11 +19,11 @@ This document explains what you need and where to find it.
 ## Infrastructure Details
 | Resource | Value |
 |----------|-------|
-| Jumpbox | `ue1p-jump-02.prd.kurtosys-internal.net` |
-| Jumpbox IP | `10.128.22.249` |
-| Jumpbox Instance ID | `i-0a8939c96fb1f1936` |
-| Main RDS | `ue1p-dxm.ccj9eknkk7w9.us-east-1.rds.amazonaws.com` |
-| Replica RDS (read-only) | `ue1p-dxm-repl.ccj9eknkk7w9.us-east-1.rds.amazonaws.com` |
+| Jumpbox | `<jumpbox-hostname>` |
+| Jumpbox IP | `<jumpbox-ip>` |
+| Jumpbox Instance ID | `<instance-id>` |
+| Main RDS | `<rds-host>` |
+| Replica RDS (read-only) | `<rds-replica-host>` |
 | Region | `us-east-1` (Virginia) |
 
 ---
@@ -41,7 +41,7 @@ This document explains what you need and where to find it.
 | Purpose | Bucket |
 |---------|--------|
 | BCM Media/Files (source) | `ksys-ue1p-dxm-content` |
-| Backup destination | `ksys-ue1p-kapp-dbbackup` |
+| Backup destination | `<backup-bucket>` |
 
 ---
 

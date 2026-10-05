@@ -1,0 +1,26 @@
+# Environment and credentials
+env.sh
+.env
+*.env
+credentials
+*.credentials
+
+# AWS credentials
+.aws/
+aws-credentials*
+
+# Files with passwords or secrets
+*password*
+*secret*
+*token*
+
+# Logs
+*.log
+
+# SQL dumps (large and may contain sensitive data)
+*.sql
+*.sql.gz
+
+# OS files
+.DS_Store
+Thumbs.db
