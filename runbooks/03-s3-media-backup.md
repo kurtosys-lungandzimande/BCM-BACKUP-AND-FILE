@@ -1,12 +1,12 @@
 # 03 - S3 Media & Files Backup
 
 ## What is this?
-This step copies all BCM WordPress media files (images, uploads, themes, plugins)
+This step copies all BCM WordPress media files (images, uploads)
 from the source S3 bucket to the backup/delivery S3 bucket.
 
 ## Flow
 ```
-ksys-ue1p-dxm-content/epgwhfnlun/ → copy → ksys-ue1p-kapp-dbbackup/DXM_TEMP/TECH-4327/media/
+ksys-ue1p-dxm-content/epgwhfnlun/ → copy → ksys-ue1p-kapp-dbbackup/Backups/WordPress/ue1p-dxm.ccj9eknkk7w9.us-east-1.rds.amazonaws.com/DXM_TEMP/TECH-4327/media/
 ```
 
 ---
