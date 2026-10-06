@@ -41,7 +41,8 @@ This document explains what you need and where to find it.
 | Purpose | Bucket |
 |---------|--------|
 | BCM Media/Files (source) | `ksys-ue1p-dxm-content` |
-| Backup destination | `<backup-bucket>` |
+| Backup destination | `ksys-ue1p-kapp-dbbackup` |
+| Automated logical backups | `ksys-ue1p-dxm-dbbackup-retention` |
 
 ---
 
